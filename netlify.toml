@@ -4,3 +4,34 @@ command = "./stackbit-build.sh"
 
   [build.environment]
   HUGO_VERSION = "0.47"
+
+[[redirects]]
+  from = "/azimo"
+  to = "https://azimo.com/en/invitation?code=ARTURASU1"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/worldremit"
+  to = "https://www.worldremit.com/en/r/ARTURASU1"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/transfergo"
+  to = "http://trgo.co/en/r/dreamtrue"
+  status = 301
+  force = true
+ [[redirects]]
+  from = "/bitwala"
+  to = "http://app.bitwala.com/r/aZMTF-LU"
+  status = 301
+  force = true
+ [[redirects]] 
+  from = "/bitpanda"
+  to = "https://www.bitpanda.com/en?ref=990354243165719653"
+  status = 301
+  force = true
+ [[redirects]]
+  from = "/xendpay"
+  to = "https://secure.xendpay.com/signup/ur/S293991"
+  status = 301
+  force = true
