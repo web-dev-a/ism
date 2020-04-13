@@ -213,6 +213,19 @@ models:
         label: Title
         description: The title of the page.
         required: true
+  tags:
+    type: page
+    label: Blog
+    layout: blog
+    file: tags/_index.md
+    hideContent: true
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
   page:
     type: page
     label: Page
