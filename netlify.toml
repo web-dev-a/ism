@@ -35,3 +35,8 @@ command = "./stackbit-build.sh"
   to = "https://secure.xendpay.com/signup/ur/S293991"
   status = 301
   force = true
+ [[redirects]]
+  from = "/skrill"
+  to = "https://transfers.skrill.com/smt/refer/code/arturasu13"
+  status = 301
+  force = true
