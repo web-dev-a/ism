@@ -23,7 +23,8 @@
     </article><!-- .post -->
 
      <div class="post-feed">
-      {{ $display_posts := ((.Site.GetPage "section" "/money-transfer").Pages).ByDate.Reverse }}
+      {{ $place := .Title }}
+      {{ $display_posts := ((.Site.GetPage "section" $place).Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
         <div class="post-card-inside">
