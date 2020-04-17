@@ -24,7 +24,7 @@
 
      <div class="post-feed">
       {{ $place := .Title }}
-     {{ if $palce "eq" "Transfer"}}
+     {{ if $place "eq" "Transfer"}}
       {{ $display_posts := ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
