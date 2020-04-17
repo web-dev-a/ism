@@ -24,7 +24,7 @@
 
      <div class="post-feed">
       {{ $place := .Title }}
-      {{ $display_posts := ((.Site.GetPage "section" $place).Pages).ByDate.Reverse }}
+      {{ $display_posts := ((.Site.GetPage "section" .Title).Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
         <div class="post-card-inside">
