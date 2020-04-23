@@ -36,6 +36,16 @@ command = "./stackbit-build.sh"
   status = 301
   force = true
 [[redirects]]
+  from = "/transferwise"
+  to = "https://transferwise.com/invite/u/arturasu5"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/tw"
+  to = "https://transferwise.com/invite/u/arturasu5"
+  status = 301
+  force = true
+[[redirects]]
   from = "/bitwala"
   to = "http://app.bitwala.com/r/aZMTF-LU"
   status = 301
@@ -73,5 +83,15 @@ command = "./stackbit-build.sh"
 [[redirects]]
   from = "/sk"
   to = "https://transfers.skrill.com/smt/refer/code/arturasu13"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/vimba"
+  to = "https://vimba.co?referrer=X3ZEZbWL"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/vm"
+  to = "https://vimba.co?referrer=X3ZEZbWL"
   status = 301
   force = true
