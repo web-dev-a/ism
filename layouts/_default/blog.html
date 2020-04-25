@@ -3,7 +3,7 @@
 <div class="outer">
   <div class="inner">
 
-    <h1 class="post-title">Bank offers</h1>
+    <h2 class="post-title">Bank offers</h2>
     <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/bank").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
@@ -29,7 +29,7 @@
       {{ end }}
     </div><!-- .post-feed -->
     
-      <h1 class="post-title">Money-transfer offers</h1>   
+      <h2 class="post-title">Money-transfer offers</h2>   
       <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
@@ -55,7 +55,7 @@
       {{ end }}
     </div><!-- .post-feed -->
     
-      <h1 class="post-title">Cryptocurrency offers</h1>
+      <h2 class="post-title">Cryptocurrency offers</h2>
       <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/cryptocurrency").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
