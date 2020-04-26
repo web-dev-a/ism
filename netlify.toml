@@ -102,3 +102,13 @@ package = "@netlify/plugin-sitemap"
   to = "https://vimba.co?referrer=X3ZEZbWL"
   status = 301
   force = true
+[[redirects]]
+  from = "/mercury"
+  to = "https://dashboard.mercury.cash/register?referal=4976b02ca0404af0826cf834d8e52757"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/mc"
+  to = "https://dashboard.mercury.cash/register?referal=4976b02ca0404af0826cf834d8e52757"
+  status = 301
+  force = true
