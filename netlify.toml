@@ -112,3 +112,14 @@ package = "@netlify/plugin-sitemap"
   to = "https://dashboard.mercury.cash/register?referal=4976b02ca0404af0826cf834d8e52757"
   status = 301
   force = true
+[[redirects]]
+  from = "/xapo"
+  to = "https://get.xapo.com/9GJF3"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/xp"
+  to = "https://get.xapo.com/9GJF3"
+  status = 301
+  force = true  
+ 
