@@ -118,7 +118,7 @@ package = "@netlify/plugin-sitemap"
   status = 301
   force = true
 [[redirects]]
-  from = "/xp"
+  from = "/xa"
   to = "https://get.xapo.com/9GJF3"
   status = 301
   force = true  
