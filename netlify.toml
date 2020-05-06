@@ -122,4 +122,13 @@ package = "@netlify/plugin-sitemap"
   to = "https://get.xapo.com/9GJF3"
   status = 301
   force = true  
- 
+[[redirects]]
+  from = "/coinlist"
+  to = "https://coinlist.co/clt?referral_code=9KHAD2"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/cl"
+  to = "https://coinlist.co/clt?referral_code=9KHAD2"
+  status = 301
+  force = true 
