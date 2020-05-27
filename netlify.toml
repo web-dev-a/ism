@@ -13,6 +13,12 @@ package = "@netlify/plugin-sitemap"
   prettyURLs = true
   
 [[redirects]]
+  from = "/cms"
+  to = "https://ism.admin.datocms.com"
+  status = 301
+  force = true
+  
+[[redirects]]
   from = "/azimo"
   to = "https://azimo.com/en/invitation?code=ARTURASU1"
   status = 301
