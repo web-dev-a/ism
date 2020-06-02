@@ -138,3 +138,13 @@ package = "@netlify/plugin-sitemap"
   to = "https://coinlist.co/clt?referral_code=9KHAD2"
   status = 301
   force = true 
+[[redirects]]
+  from = "/quidco"
+  to = "https://www.quidco.com/raf/10144159/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/qc"
+  to = "https://www.quidco.com/raf/10144159/"
+  status = 301
+  force = true 
