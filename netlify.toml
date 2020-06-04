@@ -110,7 +110,7 @@ package = "@netlify/plugin-sitemap"
   force = true
 [[redirects]]
   from = "/mercury"
-  to = "https://dashboard.mercury.cash/register?referal=4976b02ca0404af0826cf834d8e52757"
+  to = "https://ishare.money/links"
   status = 301
   force = true
 [[redirects]]
@@ -130,7 +130,7 @@ package = "@netlify/plugin-sitemap"
   force = true  
 [[redirects]]
   from = "/coinlist"
-  to = "https://coinlist.co/clt?referral_code=9KHAD2"
+  to = "https://ishare.money/links"
   status = 301
   force = true
 [[redirects]]
