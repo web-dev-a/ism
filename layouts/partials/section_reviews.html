@@ -1,5 +1,15 @@
 {{ $section := .section }}
 <section id="{{ $section.section_id }}" class="block reviews-block bg-{{ $section.background }} outer">
+      <div class="block-header inner-small">
+    {{ if $section.title }}
+    <h2 class="block-title">{{ $section.title }}</h2>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <p class="block-subtitle">
+      {{ $section.subtitle | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
 <div class="inner-medium">
     <div class="post-feed">
       {{ $display_posts := first 2 ((.Site.GetPage "section" "/transfer").Pages).ByDate }}
