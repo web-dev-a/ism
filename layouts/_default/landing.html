@@ -1,9 +1,9 @@
 {{ define "content" }}
-{{ partial "offers-section.html" }}
+
 {{ range $section := .Params.sections }}
   {{ $include_dict := dict "section" $section "Site" $.Site }}
   {{ $component := print $section.type ".html" }}
   {{ partial $component $include_dict }}
 {{ end }}
-
+{{ partial "offers-section.html" }}
 {{ end }}
