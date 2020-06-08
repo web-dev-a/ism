@@ -21,12 +21,12 @@
         <div class="plan-details">
           {{ partial "markdownify-block" $plan.details }}
         </div>
+                          <h3 class="plan-name">{{ $plan.title }}</h3>
         {{ if $plan.actions }}
           {{ $include_dict := dict "actions" $plan.actions }}
           {{ partial "cta_buttons.html" $include_dict }}
         {{ end }}
         </div><!-- .plan-inside -->
-                <h3 class="plan-name">{{ $plan.title }}</h3>
       </div><!-- .cell -->
       {{ end }}
 
