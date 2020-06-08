@@ -18,9 +18,6 @@
       <div class="cell plan{{ if $plan.highlight }} highlight{{ end }}">
         <div class="plan-inside">
         <h3 class="plan-name">{{ $plan.title }}</h3>
-        {{ if $plan.price }}
-        <div class="plan-price">{{ $plan.price }}</div>
-        {{ end }}
         <div class="plan-details">
           {{ partial "markdownify-block" $plan.details }}
         </div>
@@ -29,6 +26,7 @@
           {{ partial "cta_buttons.html" $include_dict }}
         {{ end }}
         </div><!-- .plan-inside -->
+                <h3 class="plan-name">{{ $plan.title }}</h3>
       </div><!-- .cell -->
       {{ end }}
 
