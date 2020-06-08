@@ -1,8 +1,6 @@
 {{ $section := .section }}
 <section id="{{ $section.section_id }}" class="block reviews-block bg-{{ $section.background }} outer">
 <div class="inner-medium">
-
-    <h3 class="post-title">Check these offers </h3>
     <div class="post-feed">
       {{ $display_posts := first 1 ((.Site.GetPage "section" "/transfer").Pages).ByDate }}
       {{ range $post := $display_posts }}
@@ -69,33 +67,11 @@
           </div><!-- post-card-content -->
         </div><!-- .post-card-inside -->
       </article><!-- .post -->
-      
-      
-      {{ end }}
-      
-        <article class="post post-card">
-        <div class="post-card-inside">
-          <a class="post-card-thumbnail" href="/offers">
-            <img class="thumbnail" src="https://www.datocms-assets.com/25624/1590466741-hero2.png" alt="More offers" />
-          </a>
-          <div class="post-card-content">
-            <header class="post-header">
-              <h2 class="post-title"><a href="/offers" rel="bookmark">More offers</a></h2>
-            </header><!-- .post-header -->
-            <footer class="post-meta">
-            </footer>
-          </div><!-- post-card-content -->
-        </div><!-- .post-card-inside -->
-      </article><!-- .post -->
-      
+      {{ end }}     
     </div><!-- .post-feed -->
 
 
 <p class="block-buttons">
-  
-    <a href="/cryptocurrency"
-       
-       class="button secondary">Cryptocurrency offers</a>
-  
+    <a href="/cryptocurrency" class="button secondary" style="display: block; width: 100%;">More offers</a>
 </p>
 </section><!-- .block -->
