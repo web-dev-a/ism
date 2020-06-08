@@ -8,9 +8,9 @@
 
 <div class="inner-medium">
 
-    <h2 class="post-title">Bank offers</h2>
+    <h2 class="post-title">Check these offers </h2>
     <div class="post-feed">
-      {{ $display_posts := ((.Site.GetPage "section" "/bank").Pages).ByDate.Reverse }}
+      {{ $display_posts := first 1 ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
         <div class="post-card-inside">
