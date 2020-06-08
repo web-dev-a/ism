@@ -17,7 +17,6 @@
       {{ range $plan := $section.pricing_plans }}
       <div class="cell plan{{ if $plan.highlight }} highlight{{ end }}">
         <div class="plan-inside">
-        <h3 class="plan-name">{{ $plan.title }}</h3>
         <div class="plan-details">
           {{ partial "markdownify-block" $plan.details }}
         </div>
