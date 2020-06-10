@@ -148,3 +148,13 @@ package = "@netlify/plugin-sitemap"
   to = "https://www.quidco.com/raf/10144159/"
   status = 301
   force = true 
+[[redirects]]
+  from = "/aximetria"
+  to = "https://aximetria.com/sl/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/ax"
+  to = "https://aximetria.com/sl/"
+  status = 301
+  force = true 
