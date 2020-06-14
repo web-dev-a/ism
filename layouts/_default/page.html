@@ -27,7 +27,7 @@
 {{ $type := index (last 1 (split (delimit (split $url "/") "," "") ",")) 0 }} 
     
      <div class="post-feed">
-      {{ if $type eq "transfer" }}
+      {{ if eq $type "transfer" }}
       {{ $display_posts := ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
