@@ -22,8 +22,12 @@
       </div><!-- .post-content -->
     </article><!-- .post -->
 
+{{ $link := .Permalink }}
+{{ $url := urls.Parse $link }}
+{{ $type := index (last 1 (split (delimit (split $url "/") "," "") ",")) 0 }} 
+    
      <div class="post-feed">
-      {{ if in .Title "Transfer" }}
+      {{ if $type eq "transfer" }}
       {{ $display_posts := ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
