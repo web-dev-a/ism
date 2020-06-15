@@ -12,7 +12,7 @@
   </div><!-- .block-header -->
   {{ if $section.pricing_plans }}
   <div class="inner-medium">
-    <div class="post-feed">
+    <div class="grid">
 
       {{ range $plan := $section.pricing_plans }}
       <div class="cell plan{{ if $plan.highlight }} highlight{{ end }}">
