@@ -16,7 +16,7 @@
     {{ end }}
 <div class="inner">
     <div class="post-feed">
-      {{ $display_posts := first 2 ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
+      {{ $display_posts := first 3 ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
       <article class="post post-card">
         <div class="post-card-inside">
