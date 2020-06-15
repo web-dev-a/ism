@@ -1,9 +1,9 @@
 {{ define "content" }}
 
 <div class="outer">
-  <div class="inner">
+  <div class="inner-medium">
 
-    <h2 class="post-title">Bank offers</h2>
+    <h2 class="post-title">European IBAN offers</h2>
     <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/bank").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
