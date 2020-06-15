@@ -3,15 +3,12 @@
       <div class="block-header inner-small">
     {{ if $section.title }}
     <h2 class="block-title">{{ $section.title }}</h2>
-                <p>
-      {{ $section.subtitle | safeHTML }}
-    </p>
     {{ end }}
-                  </div>
+       </div>
 
     {{ if $section.subtitle }}
-                  <div class="inner">
-    <p>
+    <div class="inner">
+    <p style="text-align: center;">
       {{ $section.subtitle | safeHTML }}
     </p>
                           </div>
