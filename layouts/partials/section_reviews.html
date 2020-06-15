@@ -14,7 +14,7 @@
                           </div>
 
     {{ end }}
-<div class="inner-medium">
+<div class="inner">
     <div class="post-feed">
       {{ $display_posts := first 2 ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
