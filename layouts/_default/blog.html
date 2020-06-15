@@ -2,8 +2,9 @@
 
 <div class="outer">
   <div class="inner-medium">
-
+  <div class="block-header inner-small">
     <h2 class="post-title">European IBAN offers</h2>
+  </div>
     <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/bank").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
@@ -28,8 +29,9 @@
       </article><!-- .post -->
       {{ end }}
     </div><!-- .post-feed -->
-    
+    <div class="block-header inner-small">    
       <h2 class="post-title">Money-transfer offers</h2>   
+    </div>
       <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/transfer").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
@@ -54,8 +56,9 @@
       </article><!-- .post -->
       {{ end }}
     </div><!-- .post-feed -->
-    
+    <div class="block-header inner-small">    
       <h2 class="post-title">Cryptocurrency offers</h2>
+    </div>
       <div class="post-feed">
       {{ $display_posts := ((.Site.GetPage "section" "/cryptocurrency").Pages).ByDate.Reverse }}
       {{ range $post := $display_posts }}
