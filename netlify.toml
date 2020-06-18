@@ -130,7 +130,7 @@ package = "@netlify/plugin-sitemap"
   force = true  
 [[redirects]]
   from = "/coinlist"
-  to = "https://ishare.money/links"
+  to = "https://coinlist.co/clt?referral_code=9KHAD2"
   status = 301
   force = true
 [[redirects]]
