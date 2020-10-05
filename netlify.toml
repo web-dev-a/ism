@@ -158,3 +158,13 @@ package = "@netlify/plugin-sitemap"
   to = "https://aximetria.com/sl/"
   status = 301
   force = true 
+[[redirects]]
+  from = "/vivid"
+  to = "https://vivid.money/r/arturasNBH/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/vi"
+  to = "https://vivid.money/r/arturasNBH/"
+  status = 301
+  force = true 
