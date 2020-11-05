@@ -197,3 +197,18 @@ package = "netlify-plugin-subfont"
   to = "https://vivid.money/r/arturasNBH/"
   status = 301
   force = true 
+[[redirects]]
+  from = "/xlm"
+  to = "https://coinbase.com/earn/xlm/invite/6yqc0mkt"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/eos"
+  to = "https://coinbase.com/earn/eos/invite/z6d4j1py"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/comp"
+  to = "https://www.coinbase.com/earn/compound/invite/1nswm0hq"
+  status = 301
+  force = true 
