@@ -211,4 +211,14 @@ package = "netlify-plugin-subfont"
   from = "/comp"
   to = "https://www.coinbase.com/earn/compound/invite/1nswm0hq"
   status = 301
-  force = true 
+  force = true  
+[[redirects]]
+  from = "/test"
+  to = "https://ishare.money/track/test/?utm_source=Topparrain&utm_medium=referral&utm_campaign=XML"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/track/test
+  to = "https://www.coinbase.com/earn/compound/invite/1nswm0hq"
+  status = 301
+  force = true
