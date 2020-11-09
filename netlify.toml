@@ -218,7 +218,7 @@ package = "netlify-plugin-subfont"
   status = 301
   force = true
 [[redirects]]
-  from = "/track/test"
+  from = "/track/test/"
   to = "https://www.coinbase.com/earn/compound/invite/1nswm0hq"
   status = 301
   force = true
