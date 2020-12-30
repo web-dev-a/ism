@@ -89,12 +89,12 @@ package = "netlify-plugin-subfont"
   force = true
 [[redirects]]
   from = "/bitwala"
-  to = "http://app.bitwala.com/r/aZMTF-LU"
+  to = "http://app.bitwala.com/r/AKUN-UQUY"
   status = 301
   force = true
 [[redirects]]
   from = "/bw"
-  to = "http://app.bitwala.com/r/aZMTF-LU"
+  to = "http://app.bitwala.com/r/AKUN-UQUY"
   status = 301
   force = true
 [[redirects]] 
