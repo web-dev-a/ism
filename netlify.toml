@@ -221,4 +221,9 @@ package = "netlify-plugin-subfont"
   from = "/celsius"
   to = "https://celsiusnetwork.app.link/136234d4b1"
   status = 301
+  force = true
+[[redirects]]
+  from = "/bitflyer"
+  to = "https://bitflyer.com/en-eu?affi=s1zmj0j0"
+  status = 301
   force = true  
