@@ -223,7 +223,7 @@ package = "netlify-plugin-subfont"
   status = 301
   force = true
 [[redirects]]
-  from = "/bitflyer"
-  to = "https://bitflyer.com/en-eu?affi=s1zmj0j0"
+  from = "/degiro"
+  to = "https://www.degiro.ie/member-get-member/receive-20-euros-and-start-trading.html?id=1123CAF7&amp;utm_source=mgm"
   status = 301
   force = true  
