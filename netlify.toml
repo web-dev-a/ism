@@ -49,12 +49,7 @@ package = "netlify-plugin-subfont"
   
 [[redirects]]
   from = "/azimo"
-  to = "https://azimo.com/en/invitation?code=ARTURASU1"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/az"
-  to = "https://azimo.com/en/invitation?code=ARTURASU1"
+  to = "https://ishare.money/links"
   status = 301
   force = true
 [[redirects]]
@@ -129,12 +124,7 @@ package = "netlify-plugin-subfont"
   force = true
 [[redirects]]
   from = "/vimba"
-  to = "https://vimba.co?referrer=X3ZEZbWL"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/vm"
-  to = "https://vimba.co?referrer=X3ZEZbWL"
+  to = "https://ishare.money/links"
   status = 301
   force = true
 [[redirects]]
@@ -143,20 +133,10 @@ package = "netlify-plugin-subfont"
   status = 301
   force = true
 [[redirects]]
-  from = "/mc"
-  to = "https://dashboard.mercury.cash/register?referal=4976b02ca0404af0826cf834d8e52757"
-  status = 301
-  force = true
-[[redirects]]
   from = "/xapo"
-  to = "https://get.xapo.com/9GJF3"
+  to = "https://ishare.money/links"
   status = 301
-  force = true
-[[redirects]]
-  from = "/xa"
-  to = "https://get.xapo.com/9GJF3"
-  status = 301
-  force = true  
+  force = true 
 [[redirects]]
   from = "/coinlist"
   to = "https://coinlist.co/clt?referral_code=9KHAD2"
@@ -179,14 +159,9 @@ package = "netlify-plugin-subfont"
   force = true 
 [[redirects]]
   from = "/aximetria"
-  to = "https://aximetria.com/sl/"
+  to = "https://ishare.money/links"
   status = 301
   force = true
-[[redirects]]
-  from = "/ax"
-  to = "https://aximetria.com/sl/"
-  status = 301
-  force = true 
 [[redirects]]
   from = "/vivid"
   to = "https://vivid.money/r/arturasNBH/"
@@ -226,4 +201,9 @@ package = "netlify-plugin-subfont"
   from = "/degiro"
   to = "https://www.degiro.ie/member-get-member/receive-20-euros-and-start-trading.html?id=1123CAF7&amp;utm_source=mgm"
   status = 301
-  force = true  
+  force = true
+[[redirects]]
+  from = "/bitflyer"
+  to = "https://ishare.money/links"
+  status = 301
+  force = true
