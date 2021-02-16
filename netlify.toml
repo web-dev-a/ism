@@ -64,12 +64,7 @@ package = "netlify-plugin-subfont"
   force = true
 [[redirects]]
   from = "/transfergo"
-  to = "http://trgo.co/en/r/dreamtrue"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/tg"
-  to = "http://trgo.co/en/r/dreamtrue"
+  to = "https://ishare.money/links"
   status = 301
   force = true
 [[redirects]]
