@@ -199,7 +199,7 @@ package = "netlify-plugin-subfont"
   force = true
 [[redirects]]
   from = "/bitflyer"
-  to = "https://ishare.money/links"
+  to = "https://bitflyer.com/invitation?id=hcrtm0zc&lang=en-GB"
   status = 301
   force = true
 [[redirects]]
