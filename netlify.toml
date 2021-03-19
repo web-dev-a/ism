@@ -204,6 +204,6 @@ package = "netlify-plugin-subfont"
   force = true
 [[redirects]]
   from = "/coinsmart"
-  to = "https://early-coinsmart.kickoffpages.com?kid=1FRTZM"
+  to = "https://crypto.coinsmart.com/register?promo=Ref-bql6aV"
   status = 301
   force = true
