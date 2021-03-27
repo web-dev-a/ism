@@ -184,7 +184,7 @@ package = "netlify-plugin-subfont"
   force = true  
 [[redirects]]
   from = "/pagofx"
-  to = "https://cloud.info.pagofx.com/PagoFXShare?qs=d1404886ec559c0436d977be59b9f2b85c22b202a429d68506b456dd03511597ed27ffff0817225c6536b6a8edb47b68cfa49ba80831a09300416f526390f861ddda056368bb89af3175976ed7e489fa83a2b0d477f94f78"
+  to = "https://ishare.money/links"
   status = 301
   force = true
 [[redirects]]
