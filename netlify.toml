@@ -46,6 +46,11 @@ package = "netlify-plugin-subfont"
   to = "https://ism.admin.datocms.com"
   status = 301
   force = true
+[[redirects]]
+  from = "/top"
+  to = "https://www.topparrain.com/en/users/sign_in"
+  status = 301
+  force = true
   
 [[redirects]]
   from = "/azimo"
