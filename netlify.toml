@@ -212,3 +212,8 @@ package = "netlify-plugin-subfont"
   to = "https://crypto.coinsmart.com/register?promo=Ref-bql6aV"
   status = 301
   force = true
+[[redirects]]
+  from = "/bitstamp"
+  to = "https://www.bitstamp.net/ref/e5bAjnFGICp8zPR0/"
+  status = 301
+  force = true
