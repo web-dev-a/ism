@@ -217,3 +217,8 @@ package = "netlify-plugin-subfont"
   to = "https://www.bitstamp.net/ref/e5bAjnFGICp8zPR0/"
   status = 301
   force = true
+[[redirects]]
+  from = "/"
+  to = "https://get-bonus.eu"
+  status = 301
+  force = true
